@@ -3,49 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>NASA</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid nav-list">
+            <div>
+                <form class="d-flex" role="search">
+                    <span class="nav-span text-light">Explore</span>
+                    <input class="ms-3 input" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-light"></span>
+                </button>
+            </div>
+          <div class="img1">
+            <img width="60" src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-light" aria-current="page" href="#">News & Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link active text-light" aria-current="page" href="#">Multimedia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link text-light" href="#">NASA</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+      <div id="carouselExampleSlidesOnly" class="slider carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-inter="2000">
+            <img class="img2" src="https://www.nasa.gov/wp-content/uploads/2023/06/phytoplanktonsweden-1.jpeg?resize=1536,1528" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="img2" src="https://www.nasa.gov/wp-content/uploads/2024/01/bdaa15be-b57a-422c-a2f3-709db0f7858b.jpeg?resize=1536,1024" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img class="img2" src="https://www.nasa.gov/wp-content/uploads/2024/01/blog-iss070e076676.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      
+      <div class="black"></div>
+      
+      <div class="text">
+        <div>
+        <h3>Delivering Science to the Moon</h3>
+        <p class="main-para">Intuitive Machines’ first robotic flight to the Moon’s surface, part of NASA’s CLPS 
+          <br>(Commercial Lunar Payload Services) initiative, will transport science to Moon.</p>
+          <button type="button" class="btn1">NASA</button>
+        </div>
+      </div>
+
+      <section>
+        <div class="sec1">
+          <div class="sec1-text row">
+            <h2 class="sec-h2 col-12 col-lg-9">Featured News</h2>
+            <span class="sec1-span col-12 col-lg-3">More NASA News</span>
+          </div>
+          <div class="box row">
+            <div class="card1 col-12 col-lg-6">
+              <img class="img3" src="https://www.nasa.gov/wp-content/uploads/2024/01/ksc-20231204-ph-kls01-0027large.jpg?resize=683,1024" alt="">
+            </div>
+            <div class="card1 col-12 col-lg-3">
+              <img class="img3" src="https://www.nasa.gov/wp-content/uploads/2024/01/crew-9.jpg?resize=768,614" alt="">
+            </div>
+            <div class="card1 col-lg-3 ">
+              <div class="card2 col-12">
+                <img class="img3" src="https://science.nasa.gov/wp-content/uploads/2024/01/stsci-01evt7s3xtcw9t73cca5k5b2pq.jpg" alt="">
+              </div>
+              <div class="card2 col-12">
+                <img class="img3" src="https://www.nasa.gov/wp-content/uploads/2024/02/rolses.png?resize=768,432" alt="">
+              </div>
+            </div>
+          </div>
+          
+          <div class="img-text row">
+            <div class="one col-12 col-lg-6">
+              <svg class="svg square-2 margin-right-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" fill="#fff" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g> <path d="M8,0c4.4,0,7.9,3.5,8,7.9c0.1,4.5-3.5,8.1-7.9,8.1c-4.5,0-8-3.6-8.1-7.9C-0.1,3.6,3.6,0,8,0z M0.8,8 c0,4,3.2,7.2,7.2,7.2c4,0,7.2-3.2,7.2-7.2c0-4-3.3-7.2-7.2-7.2C4,0.8,0.8,4,0.8,8z"></path><path d="M11.2,4c0,2.7,0,5.3,0,8c-2.1,0-4.3,0-6.4,0c0,0,0,0,0-0.1c0-1.8,0-3.6,0-5.4c0-0.8,0-1.6,0-2.4 C4.8,4,4.8,4,4.9,4C6.2,4,7.6,4,9,4C9.7,4,10.4,4,11.2,4C11.1,4,11.2,4,11.2,4z M9.6,5.6c-1.1,0-2.1,0-3.2,0c0,0,0,0,0,0.1 c0,0.5,0,1,0,1.5c0,0.1,0,0.1,0.1,0.1c1,0,2,0,3.1,0c0,0,0.1,0,0.1-0.1C9.6,6.6,9.6,6.2,9.6,5.6C9.6,5.6,9.6,5.6,9.6,5.6z M6.4,8.8C6.4,8.8,6.4,8.8,6.4,8.8c1.1,0,2.1,0,3.1,0c0.1,0,0.1,0,0.1-0.1c0-0.2,0-0.4,0-0.7c0,0,0,0,0-0.1C8.5,8,7.5,8,6.4,8 C6.4,8.3,6.4,8.5,6.4,8.8z M8.8,10.4C8.8,10.4,8.8,10.4,8.8,10.4c0-0.3,0-0.5,0-0.7c0-0.1,0-0.1-0.1-0.1c-0.5,0-1,0-1.5,0 c-0.3,0-0.5,0-0.8,0c0,0,0,0-0.1,0c0,0.3,0,0.5,0,0.8C7.2,10.4,8,10.4,8.8,10.4z"></path></g></svg>
+              <span class="img-para1">News Realease</span>
+              <p class="img-para2">NASA Sets Coverage for Ocean, Atmosphere, Climate Mission</p>
+            </div>
+            
+            <div class="two col-12 col-lg-3">
+              <svg class="svg square-2 margin-right-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" fill="#fff" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g> <path d="M8,0c4.4,0,7.9,3.5,8,7.9c0.1,4.5-3.5,8.1-7.9,8.1c-4.5,0-8-3.6-8.1-7.9C-0.1,3.6,3.6,0,8,0z M0.8,8 c0,4,3.2,7.2,7.2,7.2c4,0,7.2-3.2,7.2-7.2c0-4-3.3-7.2-7.2-7.2C4,0.8,0.8,4,0.8,8z"></path><path d="M11.2,4c0,2.7,0,5.3,0,8c-2.1,0-4.3,0-6.4,0c0,0,0,0,0-0.1c0-1.8,0-3.6,0-5.4c0-0.8,0-1.6,0-2.4 C4.8,4,4.8,4,4.9,4C6.2,4,7.6,4,9,4C9.7,4,10.4,4,11.2,4C11.1,4,11.2,4,11.2,4z M9.6,5.6c-1.1,0-2.1,0-3.2,0c0,0,0,0,0,0.1 c0,0.5,0,1,0,1.5c0,0.1,0,0.1,0.1,0.1c1,0,2,0,3.1,0c0,0,0.1,0,0.1-0.1C9.6,6.6,9.6,6.2,9.6,5.6C9.6,5.6,9.6,5.6,9.6,5.6z M6.4,8.8C6.4,8.8,6.4,8.8,6.4,8.8c1.1,0,2.1,0,3.1,0c0.1,0,0.1,0,0.1-0.1c0-0.2,0-0.4,0-0.7c0,0,0,0,0-0.1C8.5,8,7.5,8,6.4,8 C6.4,8.3,6.4,8.5,6.4,8.8z M8.8,10.4C8.8,10.4,8.8,10.4,8.8,10.4c0-0.3,0-0.5,0-0.7c0-0.1,0-0.1-0.1-0.1c-0.5,0-1,0-1.5,0 c-0.3,0-0.5,0-0.8,0c0,0,0,0-0.1,0c0,0.3,0,0.5,0,0.8C7.2,10.4,8,10.4,8.8,10.4z"></path></g></svg>
+              <span class="img-para1">News Realease</span>  
+              <p class="img-para2">NASA Shares Assignments for its SpaceX Crew-9 Space Station Mission</p>
+            </div>
+            
+            <div class="three col-lg-3">
+              <div class="col-12"> 
+                <svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" fill="#fff" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+                <span class="img-para1">ARTICLE</span>
+                <p class="img-para3">February’s Night Sky Notes: Constant Companions: Circumpolar Constellations, Part I</p>
+              </div>
+              <div class="col-12">
+                <svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" fill="#fff" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+                <span class="img-para1">ARTICLE</span>
+                <p class="img-para3 img-g"><span>NASA to Study Effects of Radio Noise on Lunar Science</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="circle row">
+            <div class="c-1 col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="c-img">
+                  <img src="https://science.nasa.gov/wp-content/uploads/2024/02/carice-oli-2018360-highres.jpg" alt=""></div>
+              <div class="c-text">
+                <p class="c-para2">OpenET Moisture Measurement Tool is Proving Highly Accurate</p>
+                <svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+                <span class="c-para1">ARTICLE</span>
+              </div>
+            </div>
+            <div class="c-1 col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="c-img">
+                  <img src="https://science.nasa.gov/wp-content/uploads/2024/01/toi715b1280-illo.jpg" alt=""></div>
+              <div class="c-text">
+                <p class="c-para2">Discovery Alert: A ‘Super-Earth’ in the Habitable Zone</p>
+                <svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+                <span class="c-para1">ARTICLE</span>
+              </div>
+            </div>
+            <div class="c-1 col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="c-img">
+                  <img src="https://www.nasa.gov/wp-content/uploads/2024/01/1-pia26272-coronagraph-instrument-exposed.jpg?resize=150,150" alt=""></div>
+              <div class="c-text">
+                <p class="c-para2">OpenET Moisture Measurement Tool is Proving Highly Accurate</p>
+                <svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+                <span class="c-para1">ARTICLE</span>
+              </div>
+            </div>
+            <div class="c-1 col-12 col-sm-6 col-md-6 col-lg-3">
+              <div class="c-img">
+                  <img src="https://www.nasa.gov/wp-content/uploads/2024/01/fsp-overview-image-examples-crop.png?resize=150,150" alt=""></div>
+              <div class="c-text">
+                <p class="c-para2">OpenET Moisture Measurement Tool is Proving Highly Accurate</p>
+                <svg version="1.1" class="square-2 margin-right-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><g><path d="M8,0C3.5,0-0.1,3.7,0,8.2C0.1,12.5,3.6,16,8,16c4.4,0,8-3.6,8-8C16,3.5,12.4,0,8,0z M8,15.2 C4,15.2,0.8,12,0.8,8C0.8,4,4,0.8,8,0.8c3.9,0,7.2,3.2,7.2,7.1C15.2,11.9,12,15.2,8,15.2z"></path><path d="M5.6,12c0.8-0.8,1.6-1.6,2.4-2.4c0.8,0.8,1.6,1.6,2.4,2.4c0-2.7,0-5.3,0-8C8.8,4,7.2,4,5.6,4 C5.6,6.7,5.6,9.3,5.6,12z"></path></g></g></svg>
+                <span class="c-para1">ARTICLE</span>
+              </div>
+            </div>
+          </div>  
+      </section>
+
+      <section class="sec-2 row">
+        <div class="video-text col-12 col-sm-6 col-lg-5">
+          <small class="video-sm">FEATURED VIDEO</small>
+          <h4 class="video-h4">What’s Up: February 2024 Skywatching Tips from NASA</h4>
+          <p class="video-para">What are some skywatching highlights in February 2024? Venus begins its exit from the morning sky, as Mars makes its comeback. Plus, now through May is a good time to observe spiral galaxy M81.</p>
+          <span class="video-span">Skywatching Resources</span>
+        </div>
+        <div class="video col-12 col-sm-6 col-lg-7">
+          <iframe width="827" height="465" src="https://www.youtube.com/embed/iDAKTLmt2hs" title="What&#39;s Up: February 2024 Skywatching Tips from NASA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <div class="sec-3 container-fluid row">
+      <div class="day-text col-12 col-sm-12 col-md-7 col-lg-7">
+        <h4 class="day-h4">Image of The Day</h4>
+        <div>
+          <h4 class="para-head">Hubble Sees a Merged Galaxy</h4>
+          <p class="day-para">This new NASA Hubble Space Telescope image shows ESO 185-IG013, a luminous blue compact galaxy (BCG). BCGs are nearby galaxies that show an intense burst of star formation. They are unusually blue in visible light, which sets them apart from other high-starburst galaxies that emit more infrared light</p>
+        </div>
+        <span class="day-span">Browse Image Archive</span>
+      </div>
+      <div class="day-img col-12 col-sm-12 col-md-5 col-lg-5">
+        <img src="https://www.nasa.gov/wp-content/uploads/2024/02/hubble-eso185-ig013-strm2-3-flat.png?resize=1536,1444" alt="">
+      </div>
+    </div>
+
+    <div class="sec-4 container-fluid">
+      <div class="sec4-text row">
+        <h4 class="sec4-h4">Our Changing Planet</h4>
+        <p class="sec4-para col-lg-6">For more than 50 years, NASA satellites have provided data on Earth's land, water, air, temperature, and climate. NASA's Earth Information Center allows visitors to see how our planet is changing in six key areas: sea level rise and coastal impacts, health and air quality, wildfires, greenhouse gases, sustainable energy, and agriculture.</p>
+        <span class="sec4-span">Start Exploring</span>
+      </div>
+    </div>
+
+    <div class="sec-5 container-fluid">
+      <h2 class="sec5-h2">Discover More Topics From NASA</h2>
+
+      <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 gp">
+        <div class="col">
+          <div class="card h-100">
+            <img class="img-card" src="https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1536,864" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Missions</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col add">
+          <div class="card h-100">
+            <img class="img-card add-img" src="https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Human in Space</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="img-card" src="https://www.nasa.gov/wp-content/uploads/2023/03/ksc-392c-5029_fr-036.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Black History Month</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img class="img-card" src="https://www.nasa.gov/wp-content/uploads/2023/04/earth-at-night-north-america-east-coast.jpg?resize=1536,864" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Value of NASA</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<footer>
+  <div class="container-fluid pt-5 border-bottom">
+    <div class="row">
+      <div class="col-12 col-md-3 col-sm-12 mb-3 col-lg-2 text-center">
+        <img width="" src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+      </div>
+      <div class="row col-12 col-md-12 col-sm-12 col-lg-10 mx-auto">
+
+        <div class="col-6 col-md-3 col-sm-3 col-6 col-lg-3 p-0 mb-3">
+          <h5 class="mb-4 font-weight-bold text-uppercase">Home</h5>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">News & Event</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Multi Media</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">NASA</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Missions</a></li>
+        </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-sm-3 col-6 col-lg-3 p-0 mb-3">
+          <h5 class="mb-4 font-weight-bold text-uppercase">Humans in Space</h5>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Earth & Climate</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">The Solar System</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">The Universe</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Science</a></li>
+        </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-sm-3 col-6 col-lg-3 mb-3 p-0">
+          <h5 class="mb-4 font-weight-bold text-uppercase">Aeronautics</h5>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Technology</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">Learning Resources</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">About NASA</a></li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"><a href="#">NASA en Epsonal</a></li>
+        </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-sm-3 col-6 col-lg-3 mb-3 p-0">
+          <h5 class="mb-4 font-weight-bold text-uppercase">Connect</h5>
+        <ul class="list-group">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://www.linkedin.com/company/naologic"><i class="fa-brands fa-linkedin mr-1"></i> LinkedIn</a>
+          </li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://twitter.com/naologicerp"><i class="fa-brands fa-twitter mr-1"></i> Twitter</a>       
+          </li class="list-group-item bg-transparent border-0 p-0 mb-2">
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2"> 
+            <a href="https://www.reddit.com/r/naologic/"><i class="fa-brands fa-reddit mr-1"></i> Reddit</a>
+          </li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://plus.google.com/109511516185666043480" target="_blank"><i class="fa-brands fa-google-plus mr-1"></i> Google+</a>
+            
+          </li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://github.com/naologic" target="_blank"><i class="fa-brands fa-github mr-1"></i> Github</a>  
+          </li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://blog.naologic.com" target="_blank"><i class="fa-solid fa-m mr-1"></i> Medium</a>
+          </li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://www.facebook.com/naologic/" target="_blank"><i class="fa-brands fa-facebook-f mr-1"></i> Facebook</a>
+          </li>
+          <li class="list-group-item bg-transparent border-0 p-0 mb-2">
+            <a href="https://www.youtube.com/channel/UCtHmuf2oQLnksokfz8GIbKA" target="_blank"><i class="fa-brands fa-youtube mr-1"></i> YouTube</a>
+          </li>
+        </ul>
+        </div>
+
+      </div>
+        <div class="col-md-12">
+          <div class="py-4 d-flex justify-content-center align-items-center">
+            <a class="mr-4" href="../privacy.html">Privacy & terms</a>
+            <a href="../sitemap.xml">Sitemap</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

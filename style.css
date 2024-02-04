@@ -1,0 +1,463 @@
+.navbar{
+    background-color: #000;
+    padding: 20px !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.input{
+    background-color: transparent;
+    border-color: 0px rgb(117, 115, 115);
+    padding: 0 10px;
+}
+.nav-item, .nav-span{
+    font-size: 18px;
+    font-weight: 650;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.img1{
+    margin-left: 150px;
+}
+@media only screen and (max-width: 991px) {
+    .input, .nav-span{
+        display: none;
+    }
+    .navbar{
+        background-color: white;
+    }
+    .nav-link{
+        --bs-text-opacity: 0px !important;
+    }
+    .nav-item {
+        padding: 0 9px;
+    }
+}
+
+.img2{
+    width: 100%;
+    height: 600px !important;
+}
+
+.slider{
+    position: relative !important;
+}
+.text{
+    position: absolute;
+    bottom: 32px;
+    left: 30px;
+}
+.btn1 {
+    background-color: #d83933;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    /* margin-left: 28px; */
+}
+h3, .main-para{
+    color: white !important;
+    font-size: 20px;
+    /* padding: 10px 30px; */
+}
+h3{
+    font-size: 50px !important;
+}
+.black{
+    width: 100%;
+    height: 700px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+}
+
+
+
+.sec1{
+    /* border: 2px solid; */
+    width: 92%;
+    height: 600px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.sec1-text{
+    padding: 20px 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+@media (max-width: 990px) {
+    .sec1-text{
+        text-align: center;
+        padding: 0;
+    }
+    .sec-2, .sec-5{
+        height: 100% !important;
+    }
+    .circle{
+        height: 100% !important;
+        padding: 11px;
+    }
+    .sec-3{
+        padding: 45px !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 990px) {
+    .video-text{
+        padding: 10px 25px !important;
+    }
+    .video-h4{
+        font-size: 23px !important;
+    }
+}
+.sec-h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sec1-span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto !important;
+}
+.card1{
+    /* border: 2px solid; */
+    height: 400px;
+    padding: 0 !important;
+}
+.card2{
+    /* border: 2px solid; */
+    height: 200px;
+}
+.img3{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-text{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    margin: 0 auto !important;
+}
+.img-text div{
+    /* border: 2px solid; */
+    height: 400px;
+}
+.one{
+    width: 630px;
+    /* padding-left: 15px; */
+}
+.two, .three{
+    width: 300px;
+    /* padding-left: 15px; */
+    
+}
+
+.img-para1{
+    font-size: 18px;
+    color: white;
+    vertical-align: middle;
+}
+.img-para2{
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+    padding-top: 250px;
+}
+.three div{
+    height: 195px;
+    padding-left: 10px;
+}
+.img-para3{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+.img-g{
+    padding-top: 60px;
+    font-size: 22px;
+}
+.circle{
+    height: 200px;
+    width: 92%;
+    margin: 10px auto !important;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+@media (max-width: 500px) {
+    .circle{
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+}
+.c-1{
+    /* border: 2px solid; */
+    height: 60%;
+    width: 23%;
+    display: flex;
+}
+.c-para1{
+    vertical-align: middle;
+}
+.c-para2{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.c-img{
+    /* border: 2px solid; */
+    height: 100%;
+    width: 40%;
+    margin-right: 13px;
+}
+.c-img > img {
+    height: 83%;
+    width: 93%;
+    border-radius: 100%;
+}
+.c-text{
+    /* border: 2px solid; */
+    height: 100%;
+    width: 60%;
+}
+
+.sec-2{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid; */
+    background-color: #000;
+    align-items: center;
+}
+.video-text, .video{
+    /* border: 2px solid white; */
+    height: 400px !important;
+    width: 100%;
+}
+.video-text{
+    padding: 50px !important;
+}
+.video-sm{
+   color: #959599;
+}
+.video-h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder !important;
+}
+.video-para{
+    color: #d1d1d1;
+}
+.video-span{
+    color: white;
+    font-weight: bolder;
+}
+.video > iframe{
+    height: 100%;
+    width: 100%;
+}
+
+
+.sec-3{
+    margin: 20px auto !important;
+    /* border: 2px solid; */
+    height: 400px;
+    width: 90% !important;
+    
+}
+.day-text, .day-img{
+    /* border: 2px solid; */
+    height: 100%;
+}
+.day-img{
+    background-color: #ebe6e69f;
+    text-align: center;
+}
+.day-img > img{
+    height: 100%;
+    width: 100%;
+}
+@media (min-width:770px) and (max-width: 790px) {
+    .day-img{
+        align-self: center;
+    }
+}
+.day-h4{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-bottom: 35px;
+}
+.day-para{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.day-span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+@media (max-width: 770px) {
+    .sec-3{
+        height: 100%;
+    }
+    .day-img > img {
+        width: 100%;
+    }
+    .gp{
+        gap: 10px !important;
+    }
+   
+}
+
+
+.sec-4{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid; */
+    margin: 20px 0;
+    background-image: url("https://www.nasa.gov/wp-content/uploads/2024/01/pia26112orig.jpg?resize=1536,1088");
+    background-repeat: no-repeat !important;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    filter: brightness(85%);
+}
+.sec4-h4{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec4-para{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 50%;
+    margin: 20px auto;
+}
+.sec4-span{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec4-h4:hover{
+    color: rgba(255, 154, 171, 0.991);
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .sec4-h4{
+        font-size: 38px !important;
+        text-decoration: underline white;
+    }
+    
+}
+
+.sec-5{
+    margin: 10px 0;
+    height: 680px;
+    width: 100%;
+    /* border: 2px solid; */
+}
+.sec5-h2{
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 25px 0;
+}
+@media (min-width: 1000px) {   
+    .card:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+}
+@media (max-width: 700px) {
+    .add{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .add-img{
+        object-fit: cover;
+    }
+}
+@media (min-width: 700px) and (max-width: 770px) {
+    .add {
+        height: 420px !important;
+    }
+    .add-img{
+        object-fit: cover;
+    }
+}
+.img-card{
+    height: 90%;
+    width: 100%;
+    filter: brightness(0.5);
+}
+.card-body > h5{
+    text-align: center;
+}
+.card-body{
+    padding: 10px !important;
+    background-color: lightblue;
+    box-shadow: 0 0 10px #77acbd;
+}
+.card-body:hover{
+    background-color: #aec4cb;
+    color: white;
+}
+
+
+HTML CSSResult Skip Results Iframe
+EDIT ON
+body {
+  font-family: Rubik,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #607289;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.375;
+    font-family: Rubik,Arial,sans-serif;
+    font-weight: 500;
+    color: #fff !important;
+}
+
+a {
+    color: #5399e3 !important;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #fff !important;
+  text-decoration: none;
+}
+
+footer {
+  background: #000;
+}
